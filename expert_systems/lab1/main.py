@@ -1,7 +1,21 @@
+from argparse import ArgumentParser, Namespace
+from enum import Enum
+
 from expert_systems.lab1.bfs import BFS
+from expert_systems.lab1.dfs import DFS
 from expert_systems.lab1.node import Node, Status
 from expert_systems.lab1.plot_graph import PlotGraph
 from expert_systems.lab1.trees_desctription import get_one_to_eight_graph, get_zero_to_nine_graph
+
+
+class Trees(Enum):
+    NotDirected = 'NotDirected'
+    Directed = 'Directed'
+
+
+class Searcher(Enum):
+    bfs = 'bfs'
+    dfs = 'dfs'
 
 
 def get_path(result: Node) -> tuple[list[int], list[tuple[int, int]]]:
@@ -29,10 +43,8 @@ def print_vertices(V: list[Node]) -> None:
 
 
 def do_algorithm(
-    V: list[Node], E: dict[Node, list[Node]], source: Node, target: Node, plot_graph: PlotGraph,
+    V: list[Node], target: Node, plot_graph: PlotGraph, searcher: BFS | DFS
 ) -> None:
-    searcher = BFS(V, E, source, plot_graph)
-
     result = searcher.search(target)
 
     print_vertices(V)
@@ -45,12 +57,52 @@ def do_algorithm(
         plot_graph.plot()
 
 
-def main():
-    V, E, source, target = get_zero_to_nine_graph()
-    plot_graph = PlotGraph(E, source, target)
+def main(tree_arg: Trees, searcher_arg: Searcher):
+    match tree_arg:
+        case Trees.NotDirected:
+            tree_description = get_one_to_eight_graph()
+        case Trees.Directed:
+            tree_description = get_zero_to_nine_graph()
+        case _:
+            raise Exception('Tree not found')
+
+    V = tree_description.V
+    E = tree_description.E
+    source = tree_description.source
+    target = tree_description.target
+    plot_graph = PlotGraph(E, source, target, directed=tree_description.directed)
     plot_graph.plot()
-    do_algorithm(V, E, source, target, plot_graph)
+
+    match searcher_arg:
+        case Searcher.bfs:
+            searcher = BFS(V, E, source, plot_graph)
+        case Searcher.dfs:
+            searcher = DFS(V, E, source, plot_graph)
+        case _:
+            raise Exception('Searcher not found')
+
+    do_algorithm(V, target, plot_graph, searcher)
+
+
+def _arg_parse() -> Namespace:
+    parser = ArgumentParser(prog='GraphSearcher')
+    parser.add_argument(
+        '-t',
+        '--tree',
+        type=Trees,
+        default=Trees.NotDirected,
+        choices=Trees,
+    )
+    parser.add_argument(
+        '-s',
+        '--searcher',
+        type=Searcher,
+        default=Searcher.dfs,
+        choices=Searcher,
+    )
+    return parser.parse_args()
 
 
 if __name__ == '__main__':
-    main()
+    args = _arg_parse()
+    main(tree_arg=args.tree, searcher_arg=args.searcher)

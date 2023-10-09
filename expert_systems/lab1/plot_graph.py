@@ -7,8 +7,15 @@ from expert_systems.lab1.node import Node, Status
 
 
 class PlotGraph:
-    def __init__(self, E: dict[Node, list[Node]], source: Node, target: Node, point_node_color: str = 'pink'):
-        self._graph = nx.Graph()
+    def __init__(
+            self,
+            E: dict[Node, list[Node]],
+            source: Node,
+            target: Node,
+            directed: bool,
+            point_node_color: str = 'pink',
+    ):
+        self._graph = nx.DiGraph() if directed else nx.Graph()
         self._E = E
         self._source = source
         self._target = target
