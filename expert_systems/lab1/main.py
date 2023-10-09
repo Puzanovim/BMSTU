@@ -1,6 +1,7 @@
 from expert_systems.lab1.bfs import BFS
 from expert_systems.lab1.node import Node, Status
 from expert_systems.lab1.plot_graph import PlotGraph
+from expert_systems.lab1.trees_desctription import get_one_to_eight_graph, get_zero_to_nine_graph
 
 
 def get_path(result: Node) -> tuple[list[int], list[tuple[int, int]]]:
@@ -45,20 +46,7 @@ def do_algorithm(
 
 
 def main():
-    V: list[Node] = [Node(num) for num in range(1, 9)]
-    E: dict[Node, list[Node]] = {
-        V[0]: [V[1], V[4]],
-        V[1]: [V[0], V[5]],
-        V[2]: [V[3], V[5], V[6]],
-        V[3]: [V[2], V[6], V[7]],
-        V[4]: [V[0]],
-        V[5]: [V[1], V[2], V[6]],
-        V[6]: [V[2], V[3], V[5], V[7]],
-        V[7]: [V[3], V[6]],
-    }
-    source: Node = V[0]
-    target: Node = V[7]
-
+    V, E, source, target = get_zero_to_nine_graph()
     plot_graph = PlotGraph(E, source, target)
     plot_graph.plot()
     do_algorithm(V, E, source, target, plot_graph)
