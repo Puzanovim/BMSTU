@@ -1,0 +1,60 @@
+Process <node-1[6]> started: rank 0 of 10  
+Process <node-9[6]> started: rank 8 of 10  
+Process <node-10[7]> started: rank 9 of 10  
+Process <node-8[6]> started: rank 7 of 10  
+Process <node-7[6]> started: rank 6 of 10  
+Process <node-6[6]> started: rank 5 of 10  
+Process <node-4[6]> started: rank 3 of 10  
+Process <node-2[6]> started: rank 1 of 10  
+Process <node-3[6]> started: rank 2 of 10  
+Process <node-5[6]> started: rank 4 of 10  
+[4] Bandwith (test #0) =    37.64 MByte/s 	 dt = 0.0208  sent=      800 KBytes
+[8] Bandwith (test #0) =    29.78 MByte/s 	 dt = 0.0262  sent=      800 KBytes
+[4] Bandwith (test #1) =   158.16 MByte/s 	 dt = 0.0099  sent=     1600 KBytes
+[0] Bandwith (test #0) =    23.06 MByte/s 	 dt = 0.0339  sent=      800 KBytes
+[2] Bandwith (test #0) =    22.50 MByte/s 	 dt = 0.0347  sent=      800 KBytes
+[6] Bandwith (test #0) =    21.93 MByte/s 	 dt = 0.0356  sent=      800 KBytes
+[4] Bandwith (test #2) =   313.21 MByte/s 	 dt = 0.0100  sent=     3200 KBytes
+[8] Bandwith (test #1) =    88.93 MByte/s 	 dt = 0.0176  sent=     1600 KBytes
+[4] Bandwith (test #3) =   409.49 MByte/s 	 dt = 0.0153  sent=     6400 KBytes
+[0] Bandwith (test #1) =    62.02 MByte/s 	 dt = 0.0252  sent=     1600 KBytes
+[2] Bandwith (test #1) =    60.85 MByte/s 	 dt = 0.0257  sent=     1600 KBytes
+[6] Bandwith (test #1) =    60.70 MByte/s 	 dt = 0.0257  sent=     1600 KBytes
+[8] Bandwith (test #2) =   134.77 MByte/s 	 dt = 0.0232  sent=     3200 KBytes
+[0] Bandwith (test #2) =   113.85 MByte/s 	 dt = 0.0274  sent=     3200 KBytes
+[2] Bandwith (test #2) =   114.25 MByte/s 	 dt = 0.0274  sent=     3200 KBytes
+[4] Bandwith (test #4) =   379.47 MByte/s 	 dt = 0.0329  sent=    12800 KBytes
+[6] Bandwith (test #2) =    99.56 MByte/s 	 dt = 0.0314  sent=     3200 KBytes
+[8] Bandwith (test #3) =   207.26 MByte/s 	 dt = 0.0302  sent=     6400 KBytes
+[0] Bandwith (test #3) =   170.74 MByte/s 	 dt = 0.0366  sent=     6400 KBytes
+[2] Bandwith (test #3) =   164.92 MByte/s 	 dt = 0.0379  sent=     6400 KBytes
+[6] Bandwith (test #3) =   146.81 MByte/s 	 dt = 0.0426  sent=     6400 KBytes
+[4] Bandwith (test #5) =   543.89 MByte/s 	 dt = 0.0460  sent=    25600 KBytes
+[8] Bandwith (test #4) =   181.03 MByte/s 	 dt = 0.0690  sent=    12800 KBytes
+[0] Bandwith (test #4) =   133.55 MByte/s 	 dt = 0.0936  sent=    12800 KBytes
+[8] Bandwith (test #5) =   169.69 MByte/s 	 dt = 0.1473  sent=    25600 KBytes
+[0] Bandwith (test #5) =   214.98 MByte/s 	 dt = 0.1163  sent=    25600 KBytes
+[6] Bandwith (test #4) =    45.44 MByte/s 	 dt = 0.2751  sent=    12800 KBytes
+[2] Bandwith (test #4) =    40.93 MByte/s 	 dt = 0.3054  sent=    12800 KBytes
+[0] Bandwith (test #6) =   287.68 MByte/s 	 dt = 0.1738  sent=    51200 KBytes
+[6] Bandwith (test #5) =    56.06 MByte/s 	 dt = 0.4459  sent=    25600 KBytes
+[4] Bandwith (test #6) =    47.45 MByte/s 	 dt = 1.0538  sent=    51200 KBytes
+[4] Bandwith (test #7) =   930.37 MByte/s 	 dt = 0.1075  sent=   102400 KBytes
+[2] Bandwith (test #5) =    26.61 MByte/s 	 dt = 0.9395  sent=    25600 KBytes
+[4] Bandwith (test #8) =  1201.71 MByte/s 	 dt = 0.1664  sent=   204800 KBytes
+[4] Bandwith (test #9) =  1289.73 MByte/s 	 dt = 0.3101  sent=   409600 KBytes
+[8] Bandwith (test #6) =    30.05 MByte/s 	 dt = 1.6638  sent=    51200 KBytes
+[0] Bandwith (test #7) =    65.31 MByte/s 	 dt = 1.5312  sent=   102400 KBytes
+[6] Bandwith (test #6) =    34.44 MByte/s 	 dt = 1.4518  sent=    51200 KBytes
+[0] Bandwith (test #8) =   420.37 MByte/s 	 dt = 0.4758  sent=   204800 KBytes
+[2] Bandwith (test #6) =    41.80 MByte/s 	 dt = 1.1962  sent=    51200 KBytes
+[6] Bandwith (test #7) =   154.18 MByte/s 	 dt = 0.6486  sent=   102400 KBytes
+[8] Bandwith (test #7) =    61.84 MByte/s 	 dt = 1.6172  sent=   102400 KBytes
+[2] Bandwith (test #7) =    54.21 MByte/s 	 dt = 1.8448  sent=   102400 KBytes
+[6] Bandwith (test #8) =    80.33 MByte/s 	 dt = 2.4899  sent=   204800 KBytes
+[8] Bandwith (test #8) =    95.14 MByte/s 	 dt = 2.1021  sent=   204800 KBytes
+[0] Bandwith (test #9) =   105.51 MByte/s 	 dt = 3.7911  sent=   409600 KBytes
+[2] Bandwith (test #8) =    93.77 MByte/s 	 dt = 2.1328  sent=   204800 KBytes
+[8] Bandwith (test #9) =   181.04 MByte/s 	 dt = 2.2094  sent=   409600 KBytes
+[6] Bandwith (test #9) =   112.94 MByte/s 	 dt = 3.5418  sent=   409600 KBytes
+[2] Bandwith (test #9) =   101.57 MByte/s 	 dt = 3.9380  sent=   409600 KBytes

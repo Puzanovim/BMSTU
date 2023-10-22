@@ -1,0 +1,340 @@
+Hello from processor node-1[6] 0 of 10  
+Hello from processor node-10[7] 9 of 10  
+Hello from processor node-7[6] 6 of 10  
+Hello from processor node-2[6] 1 of 10  
+Hello from processor node-3[6] 2 of 10  
+Hello from processor node-9[6] 8 of 10  
+Hello from processor node-8[6] 7 of 10  
+Hello from processor node-6[6] 5 of 10  
+Hello from processor node-5[6] 4 of 10  
+Hello from processor node-4[6] 3 of 10  
+[8] Time = 0.010651  Data=      800 KByte
+[8]  Bandwith[0] = 73.352961 MByte/sek  cl=0
+	[8]  Sent:   80   81   82   83   84   85   86   87   88   89 
+	[8] Received:   90   91   92   93   94   95   96   97   98   99 
+	[9]  Sent:   90   91   92   93   94   95   96   97   98   99 
+	[9] Received:   80   81   82   83   84   85   86   87   88   89 
+[0] Time = 0.012558  Data=      800 KByte
+[0]  Bandwith[0] = 62.209408 MByte/sek  cl=0
+	[0]  Sent:    0    1    2    3    4    5    6    7    8    9 
+	[0] Received:   10   11   12   13   14   15   16   17   18   19 
+	[1]  Sent:   10   11   12   13   14   15   16   17   18   19 
+	[1] Received:    0    1    2    3    4    5    6    7    8    9 
+	[5]  Sent:   50   51   52   53   54   55   56   57   58   59 
+	[5] Received:   40   41   42   43   44   45   46   47   48   49 
+[4] Time = 0.012775  Data=      800 KByte
+[4]  Bandwith[0] = 61.153800 MByte/sek  cl=0
+	[4]  Sent:   40   41   42   43   44   45   46   47   48   49 
+	[4] Received:   50   51   52   53   54   55   56   57   58   59 
+	[9]  Sent:   90   91   92   93   94   95   96   97   98   99 
+	[9] Received:   80   81   82   83   84   85   86   87   88   89 
+[8] Time = 0.009010  Data=     1600 KByte
+[8]  Bandwith[1] = 173.413823 MByte/sek  cl=1
+	[8]  Sent:   80   81   82   83   84   85   86   87   88   89 
+	[8] Received:   90   91   92   93   94   95   96   97   98   99 
+[0] Time = 0.009760  Data=     1600 KByte
+[0]  Bandwith[1] = 160.095974 MByte/sek  cl=1
+	[0]  Sent:    0    1    2    3    4    5    6    7    8    9 
+	[0] Received:   10   11   12   13   14   15   16   17   18   19 
+[4] Time = 0.006496  Data=     1600 KByte
+[4]  Bandwith[1] = 240.523959 MByte/sek  cl=1
+	[4]  Sent:   40   41   42   43   44   45   46   47   48   49 
+	[4] Received:   50   51   52   53   54   55   56   57   58   59 
+	[1]  Sent:   10   11   12   13   14   15   16   17   18   19 
+	[1] Received:    0    1    2    3    4    5    6    7    8    9 
+	[5]  Sent:   50   51   52   53   54   55   56   57   58   59 
+	[5] Received:   40   41   42   43   44   45   46   47   48   49 
+[6] Time = 0.025494  Data=      800 KByte
+[6]  Bandwith[0] = 30.644290 MByte/sek  cl=0
+	[6]  Sent:   60   61   62   63   64   65   66   67   68   69 
+	[6] Received:   70   71   72   73   74   75   76   77   78   79 
+	[7]  Sent:   70   71   72   73   74   75   76   77   78   79 
+	[7] Received:   60   61   62   63   64   65   66   67   68   69 
+[2] Time = 0.026114  Data=      800 KByte
+[2]  Bandwith[0] = 29.917244 MByte/sek  cl=0
+	[2]  Sent:   20   21   22   23   24   25   26   27   28   29 
+	[2] Received:   30   31   32   33   34   35   36   37   38   39 
+	[3]  Sent:   30   31   32   33   34   35   36   37   38   39 
+	[3] Received:   20   21   22   23   24   25   26   27   28   29 
+[4] Time = 0.007062  Data=     3200 KByte
+[4]  Bandwith[2] = 442.485703 MByte/sek  cl=2
+	[4]  Sent:   40   41   42   43   44   45   46   47   48   49 
+	[4] Received:   50   51   52   53   54   55   56   57   58   59 
+	[5]  Sent:   50   51   52   53   54   55   56   57   58   59 
+	[5] Received:   40   41   42   43   44   45   46   47   48   49 
+	[9]  Sent:   90   91   92   93   94   95   96   97   98   99 
+	[9] Received:   80   81   82   83   84   85   86   87   88   89 
+[8] Time = 0.010815  Data=     3200 KByte
+[8]  Bandwith[2] = 288.955180 MByte/sek  cl=2
+	[8]  Sent:   80   81   82   83   84   85   86   87   88   89 
+	[8] Received:   90   91   92   93   94   95   96   97   98   99 
+[0] Time = 0.011543  Data=     3200 KByte
+[0]  Bandwith[2] = 270.728822 MByte/sek  cl=2
+	[0]  Sent:    0    1    2    3    4    5    6    7    8    9 
+	[0] Received:   10   11   12   13   14   15   16   17   18   19 
+	[1]  Sent:   10   11   12   13   14   15   16   17   18   19 
+	[1] Received:    0    1    2    3    4    5    6    7    8    9 
+[4] Time = 0.007991  Data=     6400 KByte
+[4]  Bandwith[3] = 782.131347 MByte/sek  cl=3
+	[4]  Sent:   40   41   42   43   44   45   46   47   48   49 
+	[4] Received:   50   51   52   53   54   55   56   57   58   59 
+	[5]  Sent:   50   51   52   53   54   55   56   57   58   59 
+	[5] Received:   40   41   42   43   44   45   46   47   48   49 
+[6] Time = 0.015429  Data=     1600 KByte
+[6]  Bandwith[1] = 101.271366 MByte/sek  cl=1
+	[6]  Sent:   60   61   62   63   64   65   66   67   68   69 
+	[6] Received:   70   71   72   73   74   75   76   77   78   79 
+	[7]  Sent:   70   71   72   73   74   75   76   77   78   79 
+	[7] Received:   60   61   62   63   64   65   66   67   68   69 
+[2] Time = 0.016237  Data=     1600 KByte
+[2]  Bandwith[1] = 96.231998 MByte/sek  cl=1
+	[2]  Sent:   20   21   22   23   24   25   26   27   28   29 
+	[2] Received:   30   31   32   33   34   35   36   37   38   39 
+	[3]  Sent:   30   31   32   33   34   35   36   37   38   39 
+	[3] Received:   20   21   22   23   24   25   26   27   28   29 
+	[9]  Sent:   90   91   92   93   94   95   96   97   98   99 
+	[9] Received:   80   81   82   83   84   85   86   87   88   89 
+[8] Time = 0.014664  Data=     6400 KByte
+[8]  Bandwith[3] = 426.212791 MByte/sek  cl=3
+	[8]  Sent:   80   81   82   83   84   85   86   87   88   89 
+	[8] Received:   90   91   92   93   94   95   96   97   98   99 
+[0] Time = 0.015937  Data=     6400 KByte
+[0]  Bandwith[3] = 392.168134 MByte/sek  cl=3
+	[0]  Sent:    0    1    2    3    4    5    6    7    8    9 
+	[0] Received:   10   11   12   13   14   15   16   17   18   19 
+	[1]  Sent:   10   11   12   13   14   15   16   17   18   19 
+	[1] Received:    0    1    2    3    4    5    6    7    8    9 
+	[5]  Sent:   50   51   52   53   54   55   56   57   58   59 
+	[5] Received:   40   41   42   43   44   45   46   47   48   49 
+[4] Time = 0.013131  Data=    12800 KByte
+[4]  Bandwith[4] = 951.975445 MByte/sek  cl=4
+	[4]  Sent:   40   41   42   43   44   45   46   47   48   49 
+	[4] Received:   50   51   52   53   54   55   56   57   58   59 
+[6] Time = 0.019055  Data=     3200 KByte
+[6]  Bandwith[2] = 163.997972 MByte/sek  cl=2
+	[6]  Sent:   60   61   62   63   64   65   66   67   68   69 
+	[6] Received:   70   71   72   73   74   75   76   77   78   79 
+	[7]  Sent:   70   71   72   73   74   75   76   77   78   79 
+	[7] Received:   60   61   62   63   64   65   66   67   68   69 
+[2] Time = 0.018535  Data=     3200 KByte
+[2]  Bandwith[2] = 168.595979 MByte/sek  cl=2
+	[2]  Sent:   20   21   22   23   24   25   26   27   28   29 
+	[2] Received:   30   31   32   33   34   35   36   37   38   39 
+	[3]  Sent:   30   31   32   33   34   35   36   37   38   39 
+	[3] Received:   20   21   22   23   24   25   26   27   28   29 
+[4] Time = 0.014243  Data=    25600 KByte
+[4]  Bandwith[5] = 1755.266303 MByte/sek  cl=5
+	[4]  Sent:   40   41   42   43   44   45   46   47   48   49 
+	[4] Received:   50   51   52   53   54   55   56   57   58   59 
+	[5]  Sent:   50   51   52   53   54   55   56   57   58   59 
+	[5] Received:   40   41   42   43   44   45   46   47   48   49 
+[8] Time = 0.030662  Data=    12800 KByte
+[8]  Bandwith[4] = 407.673349 MByte/sek  cl=4
+	[8]  Sent:   80   81   82   83   84   85   86   87   88   89 
+	[8] Received:   90   91   92   93   94   95   96   97   98   99 
+	[9]  Sent:   90   91   92   93   94   95   96   97   98   99 
+	[9] Received:   80   81   82   83   84   85   86   87   88   89 
+[0] Time = 0.029944  Data=    12800 KByte
+[0]  Bandwith[4] = 417.441902 MByte/sek  cl=4
+	[0]  Sent:    0    1    2    3    4    5    6    7    8    9 
+	[0] Received:   10   11   12   13   14   15   16   17   18   19 
+	[1]  Sent:   10   11   12   13   14   15   16   17   18   19 
+	[1] Received:    0    1    2    3    4    5    6    7    8    9 
+[6] Time = 0.020762  Data=     6400 KByte
+[6]  Bandwith[3] = 301.030321 MByte/sek  cl=3
+	[6]  Sent:   60   61   62   63   64   65   66   67   68   69 
+	[6] Received:   70   71   72   73   74   75   76   77   78   79 
+	[7]  Sent:   70   71   72   73   74   75   76   77   78   79 
+	[7] Received:   60   61   62   63   64   65   66   67   68   69 
+[2] Time = 0.024145  Data=     6400 KByte
+[2]  Bandwith[3] = 258.850482 MByte/sek  cl=3
+	[2]  Sent:   20   21   22   23   24   25   26   27   28   29 
+	[2] Received:   30   31   32   33   34   35   36   37   38   39 
+	[3]  Sent:   30   31   32   33   34   35   36   37   38   39 
+	[3] Received:   20   21   22   23   24   25   26   27   28   29 
+[4] Time = 0.023762  Data=    51200 KByte
+[4]  Bandwith[6] = 2104.211754 MByte/sek  cl=6
+	[4]  Sent:   40   41   42   43   44   45   46   47   48   49 
+	[4] Received:   50   51   52   53   54   55   56   57   58   59 
+	[5]  Sent:   50   51   52   53   54   55   56   57   58   59 
+	[5] Received:   40   41   42   43   44   45   46   47   48   49 
+	[9]  Sent:   90   91   92   93   94   95   96   97   98   99 
+	[9] Received:   80   81   82   83   84   85   86   87   88   89 
+[8] Time = 0.046945  Data=    25600 KByte
+[8]  Bandwith[5] = 532.542238 MByte/sek  cl=5
+	[8]  Sent:   80   81   82   83   84   85   86   87   88   89 
+	[8] Received:   90   91   92   93   94   95   96   97   98   99 
+[0] Time = 0.046202  Data=    25600 KByte
+[0]  Bandwith[5] = 541.104563 MByte/sek  cl=5
+	[0]  Sent:    0    1    2    3    4    5    6    7    8    9 
+	[0] Received:   10   11   12   13   14   15   16   17   18   19 
+	[1]  Sent:   10   11   12   13   14   15   16   17   18   19 
+	[1] Received:    0    1    2    3    4    5    6    7    8    9 
+[4] Time = 0.040242  Data=   102400 KByte
+[4]  Bandwith[7] = 2484.939213 MByte/sek  cl=7
+	[4]  Sent:   40   41   42   43   44   45   46   47   48   49 
+	[4] Received:   50   51   52   53   54   55   56   57   58   59 
+	[5]  Sent:   50   51   52   53   54   55   56   57   58   59 
+	[5] Received:   40   41   42   43   44   45   46   47   48   49 
+[6] Time = 0.050491  Data=    12800 KByte
+[6]  Bandwith[4] = 247.567944 MByte/sek  cl=4
+	[6]  Sent:   60   61   62   63   64   65   66   67   68   69 
+	[6] Received:   70   71   72   73   74   75   76   77   78   79 
+	[7]  Sent:   70   71   72   73   74   75   76   77   78   79 
+	[7] Received:   60   61   62   63   64   65   66   67   68   69 
+[2] Time = 0.052125  Data=    12800 KByte
+[2]  Bandwith[4] = 239.808535 MByte/sek  cl=4
+	[2]  Sent:   20   21   22   23   24   25   26   27   28   29 
+	[2] Received:   30   31   32   33   34   35   36   37   38   39 
+	[3]  Sent:   30   31   32   33   34   35   36   37   38   39 
+	[3] Received:   20   21   22   23   24   25   26   27   28   29 
+[0] Time = 0.073802  Data=    51200 KByte
+[0]  Bandwith[6] = 677.492960 MByte/sek  cl=6
+	[0]  Sent:    0    1    2    3    4    5    6    7    8    9 
+	[0] Received:   10   11   12   13   14   15   16   17   18   19 
+	[1]  Sent:   10   11   12   13   14   15   16   17   18   19 
+	[1] Received:    0    1    2    3    4    5    6    7    8    9 
+	[5]  Sent:   50   51   52   53   54   55   56   57   58   59 
+	[5] Received:   40   41   42   43   44   45   46   47   48   49 
+[4] Time = 0.073539  Data=   204800 KByte
+[4]  Bandwith[8] = 2719.657499 MByte/sek  cl=8
+	[4]  Sent:   40   41   42   43   44   45   46   47   48   49 
+	[4] Received:   50   51   52   53   54   55   56   57   58   59 
+	[7]  Sent:   70   71   72   73   74   75   76   77   78   79 
+	[7] Received:   60   61   62   63   64   65   66   67   68   69 
+[6] Time = 0.072368  Data=    25600 KByte
+[6]  Bandwith[5] = 345.457048 MByte/sek  cl=5
+	[6]  Sent:   60   61   62   63   64   65   66   67   68   69 
+	[6] Received:   70   71   72   73   74   75   76   77   78   79 
+[2] Time = 0.069925  Data=    25600 KByte
+[2]  Bandwith[5] = 357.526861 MByte/sek  cl=5
+	[2]  Sent:   20   21   22   23   24   25   26   27   28   29 
+	[2] Received:   30   31   32   33   34   35   36   37   38   39 
+	[3]  Sent:   30   31   32   33   34   35   36   37   38   39 
+	[3] Received:   20   21   22   23   24   25   26   27   28   29 
+[2] Time = 0.099632  Data=    51200 KByte
+[2]  Bandwith[6] = 501.848792 MByte/sek  cl=6
+	[2]  Sent:   20   21   22   23   24   25   26   27   28   29 
+	[2] Received:   30   31   32   33   34   35   36   37   38   39 
+	[3]  Sent:   30   31   32   33   34   35   36   37   38   39 
+	[3] Received:   20   21   22   23   24   25   26   27   28   29 
+[0] Time = 0.124318  Data=   102400 KByte
+[0]  Bandwith[7] = 804.387772 MByte/sek  cl=7
+	[0]  Sent:    0    1    2    3    4    5    6    7    8    9 
+	[0] Received:   10   11   12   13   14   15   16   17   18   19 
+	[1]  Sent:   10   11   12   13   14   15   16   17   18   19 
+	[1] Received:    0    1    2    3    4    5    6    7    8    9 
+[6] Time = 0.135678  Data=    51200 KByte
+[6]  Bandwith[6] = 368.519752 MByte/sek  cl=6
+	[6]  Sent:   60   61   62   63   64   65   66   67   68   69 
+	[6] Received:   70   71   72   73   74   75   76   77   78   79 
+	[7]  Sent:   70   71   72   73   74   75   76   77   78   79 
+	[7] Received:   60   61   62   63   64   65   66   67   68   69 
+	[9]  Sent:   90   91   92   93   94   95   96   97   98   99 
+	[9] Received:   80   81   82   83   84   85   86   87   88   89 
+[8] Time = 0.249255  Data=    51200 KByte
+[8]  Bandwith[6] = 200.597797 MByte/sek  cl=6
+	[8]  Sent:   80   81   82   83   84   85   86   87   88   89 
+	[8] Received:   90   91   92   93   94   95   96   97   98   99 
+[2] Time = 0.172641  Data=   102400 KByte
+[2]  Bandwith[7] = 579.236447 MByte/sek  cl=7
+	[2]  Sent:   20   21   22   23   24   25   26   27   28   29 
+	[2] Received:   30   31   32   33   34   35   36   37   38   39 
+	[3]  Sent:   30   31   32   33   34   35   36   37   38   39 
+	[3] Received:   20   21   22   23   24   25   26   27   28   29 
+[0] Time = 0.418378  Data=   204800 KByte
+[0]  Bandwith[8] = 478.036210 MByte/sek  cl=8
+	[0]  Sent:    0    1    2    3    4    5    6    7    8    9 
+	[0] Received:   10   11   12   13   14   15   16   17   18   19 
+	[1]  Sent:   10   11   12   13   14   15   16   17   18   19 
+	[1] Received:    0    1    2    3    4    5    6    7    8    9 
+	[9]  Sent:   90   91   92   93   94   95   96   97   98   99 
+	[9] Received:   80   81   82   83   84   85   86   87   88   89 
+[8] Time = 0.387465  Data=   102400 KByte
+[8]  Bandwith[7] = 258.087785 MByte/sek  cl=7
+	[8]  Sent:   80   81   82   83   84   85   86   87   88   89 
+	[8] Received:   90   91   92   93   94   95   96   97   98   99 
+[6] Time = 0.437917  Data=   102400 KByte
+[6]  Bandwith[7] = 228.353969 MByte/sek  cl=7
+	[6]  Sent:   60   61   62   63   64   65   66   67   68   69 
+	[6] Received:   70   71   72   73   74   75   76   77   78   79 
+	[7]  Sent:   70   71   72   73   74   75   76   77   78   79 
+	[7] Received:   60   61   62   63   64   65   66   67   68   69 
+[8] Time = 0.462299  Data=   204800 KByte
+[8]  Bandwith[8] = 432.620774 MByte/sek  cl=8
+	[8]  Sent:   80   81   82   83   84   85   86   87   88   89 
+	[8] Received:   90   91   92   93   94   95   96   97   98   99 
+	[9]  Sent:   90   91   92   93   94   95   96   97   98   99 
+	[9] Received:   80   81   82   83   84   85   86   87   88   89 
+[4] Time = 1.309625  Data=   409600 KByte
+[4]  Bandwith[9] = 305.430932 MByte/sek  cl=9
+	[4]  Sent:   40   41   42   43   44   45   46   47   48   49 
+	[4] Received:   50   51   52   53   54   55   56   57   58   59 
+	[5]  Sent:   50   51   52   53   54   55   56   57   58   59 
+	[5] Received:   40   41   42   43   44   45   46   47   48   49 
+[2] Time = 1.285328  Data=   204800 KByte
+[2]  Bandwith[8] = 155.602267 MByte/sek  cl=8
+	[2]  Sent:   20   21   22   23   24   25   26   27   28   29 
+	[2] Received:   30   31   32   33   34   35   36   37   38   39 
+	[3]  Sent:   30   31   32   33   34   35   36   37   38   39 
+	[3] Received:   20   21   22   23   24   25   26   27   28   29 
+[6] Time = 1.259581  Data=   204800 KByte
+[6]  Bandwith[8] = 158.782939 MByte/sek  cl=8
+	[6]  Sent:   60   61   62   63   64   65   66   67   68   69 
+	[6] Received:   70   71   72   73   74   75   76   77   78   79 
+	[7]  Sent:   70   71   72   73   74   75   76   77   78   79 
+	[7] Received:   60   61   62   63   64   65   66   67   68   69 
+[0] Time = 1.801192  Data=   409600 KByte
+[0]  Bandwith[9] = 222.075164 MByte/sek  cl=9
+	[0]  Sent:    0    1    2    3    4    5    6    7    8    9 
+	[0] Received:   10   11   12   13   14   15   16   17   18   19 
+	[1]  Sent:   10   11   12   13   14   15   16   17   18   19 
+	[1] Received:    0    1    2    3    4    5    6    7    8    9 
+[8] Time = 1.845777  Data=   409600 KByte
+[8]  Bandwith[9] = 216.710869 MByte/sek  cl=9
+	[8]  Sent:   80   81   82   83   84   85   86   87   88   89 
+	[8] Received:   90   91   92   93   94   95   96   97   98   99 
+	[9]  Sent:   90   91   92   93   94   95   96   97   98   99 
+	[9] Received:   80   81   82   83   84   85   86   87   88   89 
+[2] Time = 2.021579  Data=   409600 KByte
+[2]  Bandwith[9] = 197.865139 MByte/sek  cl=9
+	[2]  Sent:   20   21   22   23   24   25   26   27   28   29 
+	[2] Received:   30   31   32   33   34   35   36   37   38   39 
+	[3]  Sent:   30   31   32   33   34   35   36   37   38   39 
+	[3] Received:   20   21   22   23   24   25   26   27   28   29 
+[4] Time = 2.377463  Data=   819200 KByte
+[4]  Bandwith[10] = 336.493172 MByte/sek  cl=10
+	[4]  Sent:   40   41   42   43   44   45   46   47   48   49 
+	[4] Received:   50   51   52   53   54   55   56   57   58   59 
+	[5]  Sent:   50   51   52   53   54   55   56   57   58   59 
+	[5] Received:   40   41   42   43   44   45   46   47   48   49 
+[6] Time = 2.093671  Data=   409600 KByte
+[6]  Bandwith[9] = 191.052003 MByte/sek  cl=9
+	[6]  Sent:   60   61   62   63   64   65   66   67   68   69 
+	[6] Received:   70   71   72   73   74   75   76   77   78   79 
+	[7]  Sent:   70   71   72   73   74   75   76   77   78   79 
+	[7] Received:   60   61   62   63   64   65   66   67   68   69 
+[0] Time = 3.020580  Data=   819200 KByte
+[0]  Bandwith[10] = 264.849817 MByte/sek  cl=10
+	[0]  Sent:    0    1    2    3    4    5    6    7    8    9 
+	[0] Received:   10   11   12   13   14   15   16   17   18   19 
+	[1]  Sent:   10   11   12   13   14   15   16   17   18   19 
+	[1] Received:    0    1    2    3    4    5    6    7    8    9 
+[8] Time = 3.027107  Data=   819200 KByte
+[8]  Bandwith[10] = 264.278767 MByte/sek  cl=10
+	[8]  Sent:   80   81   82   83   84   85   86   87   88   89 
+	[8] Received:   90   91   92   93   94   95   96   97   98   99 
+	[9]  Sent:   90   91   92   93   94   95   96   97   98   99 
+	[9] Received:   80   81   82   83   84   85   86   87   88   89 
+[2] Time = 3.599644  Data=   819200 KByte
+[2]  Bandwith[10] = 222.244173 MByte/sek  cl=10
+	[2]  Sent:   20   21   22   23   24   25   26   27   28   29 
+	[2] Received:   30   31   32   33   34   35   36   37   38   39 
+	[3]  Sent:   30   31   32   33   34   35   36   37   38   39 
+	[3] Received:   20   21   22   23   24   25   26   27   28   29 
+[6] Time = 3.421630  Data=   819200 KByte
+[6]  Bandwith[10] = 233.806703 MByte/sek  cl=10
+	[6]  Sent:   60   61   62   63   64   65   66   67   68   69 
+	[6] Received:   70   71   72   73   74   75   76   77   78   79 
+	[7]  Sent:   70   71   72   73   74   75   76   77   78   79 
+	[7] Received:   60   61   62   63   64   65   66   67   68   69 

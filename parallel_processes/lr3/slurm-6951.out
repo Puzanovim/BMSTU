@@ -1,0 +1,51 @@
+Hello from node-3(6) 2 of 10
+Hello from node-1(6) 0 of 10
+Hello from node-4(6) 3 of 10
+Hello from node-9(6) 8 of 10
+Hello from node-6(6) 5 of 10
+Hello from node-7(6) 6 of 10
+Hello from node-2(6) 1 of 10
+Hello from node-10(7) 9 of 10
+Hello from node-5(6) 4 of 10
+Hello from node-8(6) 7 of 10
+2: Time = 0.00780087 Data = 800 KByte
+2: Bandwith[0] = 100.149 MByte/sec
+8: Time = 0.0105209 Data = 800 KByte
+8: Bandwith[0] = 74.2566 MByte/sec
+0: Time = 0.0116446 Data = 800 KByte
+0: Bandwith[0] = 67.0914 MByte/sec
+6: Time = 0.0116449 Data = 800 KByte
+6: Bandwith[0] = 67.0895 MByte/sec
+2: Time = 0.00736153 Data = 1600 KByte
+2: Bandwith[1] = 212.252 MByte/sec
+4: Time = 0.0124582 Data = 800 KByte
+4: Bandwith[0] = 62.7098 MByte/sec
+8: Time = 0.00944091 Data = 1600 KByte
+8: Bandwith[1] = 165.503 MByte/sec
+6: Time = 0.00903485 Data = 1600 KByte
+6: Bandwith[1] = 172.941 MByte/sec
+2: Time = 0.00802488 Data = 3200 KByte
+2: Bandwith[2] = 389.414 MByte/sec
+0: Time = 0.0111041 Data = 1600 KByte
+0: Bandwith[1] = 140.714 MByte/sec
+4: Time = 0.0112345 Data = 1600 KByte
+4: Bandwith[1] = 139.08 MByte/sec
+8: Time = 0.00980044 Data = 3200 KByte
+8: Bandwith[2] = 318.863 MByte/sec
+2: Time = 0.0100795 Data = 6400 KByte
+2: Bandwith[3] = 620.068 MByte/sec
+6: Time = 0.0106246 Data = 3200 KByte
+6: Bandwith[2] = 294.128 MByte/sec
+0: Time = 0.0111366 Data = 3200 KByte
+0: Bandwith[2] = 280.607 MByte/sec
+4: Time = 0.0131794 Data = 3200 KByte
+4: Bandwith[2] = 237.113 MByte/sec
+8: Time = 0.013659 Data = 6400 KByte
+8: Bandwith[3] = 457.573 MByte/sec
+6: Time = 0.0133541 Data = 6400 KByte
+6: Bandwith[3] = 468.021 MByte/sec
+0: Time = 0.0140849 Data = 6400 KByte
+0: Bandwith[3] = 443.737 MByte/sec
+4: Time = 0.0130889 Data = 6400 KByte
+4: Bandwith[3] = 477.504 MByte/sec
+slurmstepd: error: *** JOB 6951 ON node-1 CANCELLED AT 2023-10-20T10:39:37 DUE TO TIME LIMIT ***
