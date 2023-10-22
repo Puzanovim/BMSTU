@@ -1,0 +1,31 @@
+Hello from node-1(6) 0 of 10
+0: Buffer №0 = 0 1 2 
+0: Buffer №1 = 1024 1025 1026 
+0: Buffer №2 = 2048 2049 2050 
+0: Buffer №3 = 3072 3073 3074 
+0: Buffer №4 = 4096 4097 4098 
+0: Buffer №5 = 5120 5121 5122 
+0: Buffer №6 = 6144 6145 6146 
+0: Buffer №7 = 7168 7169 7170 
+0: Buffer №8 = 8192 8193 8194 
+0: Buffer №9 = 9216 9217 9218 
+Hello from node-5(6) 4 of 10
+Hello from node-6(6) 5 of 10
+Hello from node-4(6) 3 of 10
+Hello from node-3(6) 2 of 10
+Hello from node-2(6) 1 of 10
+Hello from node-7(6) 6 of 10
+Hello from node-10(7) 9 of 10
+Hello from node-9(6) 8 of 10
+Hello from node-8(6) 7 of 10
+1: Out buffer = 1024 1025 1026 
+2: Out buffer = 2048 2049 2050 
+3: Out buffer = 3072 3073 3074 
+4: Out buffer = 4096 4097 4098 
+5: Out buffer = 5120 5121 5122 
+6: Out buffer = 6144 6145 6146 
+7: Out buffer = 7168 7169 7170 
+8: Out buffer = 8192 8193 8194 
+0: Out buffer = 0 1 2 
+9: Out buffer = 9216 9217 9218 
+0: Reduced = 46080 46090 46100 

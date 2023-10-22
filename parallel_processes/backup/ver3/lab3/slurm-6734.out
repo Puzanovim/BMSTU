@@ -1,0 +1,42 @@
+Process <node-1[6]> started: rank 0 of 10  
+Process <node-5[6]> started: rank 4 of 10  
+Process <node-2[6]> started: rank 1 of 10  
+Process <node-9[6]> started: rank 8 of 10  
+Process <node-3[6]> started: rank 2 of 10  
+Process <node-10[7]> started: rank 9 of 10  
+Process <node-7[6]> started: rank 6 of 10  
+Process <node-6[6]> started: rank 5 of 10  
+Process <node-4[6]> started: rank 3 of 10  
+Process <node-8[6]> started: rank 7 of 10  
+[4] Bandwith (test #0) =    95.37 MByte/s 	 dt = 0.0082  sent=      800 KBytes
+[8] Bandwith (test #0) =    64.89 MByte/s 	 dt = 0.0120  sent=      800 KBytes
+[4] Bandwith (test #1) =   282.38 MByte/s 	 dt = 0.0055  sent=     1600 KBytes
+[2] Bandwith (test #0) =    51.40 MByte/s 	 dt = 0.0152  sent=      800 KBytes
+[6] Bandwith (test #0) =    48.44 MByte/s 	 dt = 0.0161  sent=      800 KBytes
+[4] Bandwith (test #2) =   508.58 MByte/s 	 dt = 0.0061  sent=     3200 KBytes
+[0] Bandwith (test #0) =    42.84 MByte/s 	 dt = 0.0182  sent=      800 KBytes
+[8] Bandwith (test #1) =   130.80 MByte/s 	 dt = 0.0119  sent=     1600 KBytes
+[4] Bandwith (test #3) =   841.96 MByte/s 	 dt = 0.0074  sent=     6400 KBytes
+[2] Bandwith (test #1) =   108.15 MByte/s 	 dt = 0.0144  sent=     1600 KBytes
+[6] Bandwith (test #1) =   108.08 MByte/s 	 dt = 0.0145  sent=     1600 KBytes
+[0] Bandwith (test #1) =   105.70 MByte/s 	 dt = 0.0148  sent=     1600 KBytes
+[8] Bandwith (test #2) =   216.34 MByte/s 	 dt = 0.0144  sent=     3200 KBytes
+[2] Bandwith (test #2) =   177.75 MByte/s 	 dt = 0.0176  sent=     3200 KBytes
+[6] Bandwith (test #2) =   170.68 MByte/s 	 dt = 0.0183  sent=     3200 KBytes
+[8] Bandwith (test #3) =   362.04 MByte/s 	 dt = 0.0173  sent=     6400 KBytes
+[0] Bandwith (test #2) =   155.18 MByte/s 	 dt = 0.0201  sent=     3200 KBytes
+[2] Bandwith (test #3) =   275.90 MByte/s 	 dt = 0.0227  sent=     6400 KBytes
+[6] Bandwith (test #3) =   268.59 MByte/s 	 dt = 0.0233  sent=     6400 KBytes
+[0] Bandwith (test #3) =   291.23 MByte/s 	 dt = 0.0215  sent=     6400 KBytes
+slurmstepd: error: *** JOB 6734 ON node-1 CANCELLED AT 2023-10-13T17:55:25 DUE TO TIME LIMIT ***
+--------------------------------------------------------------------------
+ORTE has lost communication with a remote daemon.
+
+  HNP daemon   : [[35838,0],0] on node node-1
+  Remote daemon: [[35838,0],9] on node node-10
+
+This is usually due to either a failure of the TCP network
+connection to the node, or possibly an internal failure of
+the daemon itself. We cannot recover from this failure, and
+therefore will terminate the job.
+--------------------------------------------------------------------------

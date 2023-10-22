@@ -1,0 +1,22 @@
+Hello from processor node-1[6] 0 of 10  
+Hello from processor node-8[6] 7 of 10  
+Hello from processor node-2[6] 1 of 10  
+Hello from processor node-7[6] 6 of 10  
+Hello from processor node-4[6] 3 of 10  
+Hello from processor node-6[6] 5 of 10  
+Hello from processor node-3[6] 2 of 10  
+Hello from processor node-10[7] 9 of 10  
+Hello from processor node-9[6] 8 of 10  
+Hello from processor node-5[6] 4 of 10  
+slurmstepd: error: *** JOB 6280 ON node-1 CANCELLED AT 2023-09-22T18:09:13 DUE TO TIME LIMIT ***
+--------------------------------------------------------------------------
+ORTE has lost communication with a remote daemon.
+
+  HNP daemon   : [[34098,0],0] on node node-1
+  Remote daemon: [[34098,0],5] on node node-6
+
+This is usually due to either a failure of the TCP network
+connection to the node, or possibly an internal failure of
+the daemon itself. We cannot recover from this failure, and
+therefore will terminate the job.
+--------------------------------------------------------------------------
