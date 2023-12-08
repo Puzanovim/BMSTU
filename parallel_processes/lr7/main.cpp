@@ -52,6 +52,7 @@ bool next_step(int x, int y, int current_step) {
     desk[x][y] = current_step;
     if (current_step == N * M)
         return true;
+
     // parallel work
     for (int step = 0; step < count_steps; ++step) {
         if (next_step(x + steps[step][0], y + steps[step][1], current_step)) {
@@ -64,7 +65,7 @@ bool next_step(int x, int y, int current_step) {
     return false;
 }
 
-#define MASTER 0
+//#define MASTER 0
 
 int main(int argc, char **argv) {
 
